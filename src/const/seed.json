@@ -1,0 +1,2222 @@
+[
+  {
+    "search": [
+      {
+        "id": "d4a9d6b1-7460-4ed5-b732-cb9968373068",
+        "query": "electronics",
+        "created_at": "2023-09-12T05:27:09.541Z",
+        "updated_at": "2023-09-11T20:15:13.603Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "85753fa2-006d-44ae-8c51-ff6862653748",
+        "query": "furniture",
+        "created_at": "2023-09-11T09:51:03.175Z",
+        "updated_at": "2023-09-12T03:28:57.306Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4ec7fc3a-4c87-4e81-9c7d-d0281d2277c1",
+        "query": "clothing",
+        "created_at": "2023-09-12T02:26:53.512Z",
+        "updated_at": "2023-09-11T11:43:07.087Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "df7d1bf6-68d5-4a0a-86ed-132b6496ed96",
+        "query": "appliances",
+        "created_at": "2023-09-11T09:56:24.341Z",
+        "updated_at": "2023-09-11T08:58:11.458Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c525621f-81e3-4c65-a6f3-e03c5f828646",
+        "query": "books",
+        "created_at": "2023-09-11T19:01:13.993Z",
+        "updated_at": "2023-09-11T13:14:55.718Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "8f7a3125-67d9-4fee-a9bb-e0054169574d",
+        "name": "Part 1",
+        "price": 47645,
+        "stock_level": 5155,
+        "created_at": "2023-09-12T03:26:05.656Z",
+        "updated_at": "2023-09-12T03:56:24.530Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "39536601-5a4d-4c33-aebe-a92f6843f9c0",
+        "name": "Part 2",
+        "price": 32258,
+        "stock_level": 63227,
+        "created_at": "2023-09-11T17:21:07.766Z",
+        "updated_at": "2023-09-11T18:40:12.810Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "dc511004-1326-47d3-b30d-b1c6f232962a",
+        "name": "Part 3",
+        "price": 21979,
+        "stock_level": 54583,
+        "created_at": "2023-09-11T21:36:06.017Z",
+        "updated_at": "2023-09-11T16:00:08.816Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "e75ff96b-5a7a-46c2-bf89-49c946501ffc",
+        "name": "Part 4",
+        "price": 20482,
+        "stock_level": 99344,
+        "created_at": "2023-09-12T00:42:41.537Z",
+        "updated_at": "2023-09-11T11:35:11.217Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "39dbdfa7-bfd7-4c7d-9d7b-513f04bb01c7",
+        "name": "Part 5",
+        "price": 28668,
+        "stock_level": 64761,
+        "created_at": "2023-09-11T17:07:54.815Z",
+        "updated_at": "2023-09-11T08:21:35.033Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "da68ca08-c2a6-46a5-aaf1-90a6fa9ec47b",
+        "total_price": 8859,
+        "status": "Pending",
+        "created_at": "2023-09-12T03:14:00.239Z",
+        "updated_at": "2023-09-12T01:23:51.132Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d3c3c486-6559-4f43-baca-43d4820408e8",
+        "total_price": 4538,
+        "status": "Processing",
+        "created_at": "2023-09-11T12:43:34.608Z",
+        "updated_at": "2023-09-11T07:01:53.216Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "57146662-8c98-4e16-b897-2456e2665aa6",
+        "total_price": 46943,
+        "status": "Shipped",
+        "created_at": "2023-09-11T06:56:06.908Z",
+        "updated_at": "2023-09-11T22:41:30.601Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2a1f0d2d-4c8d-4374-935c-c19675ccc43c",
+        "total_price": 94134,
+        "status": "Delivered",
+        "created_at": "2023-09-11T20:54:35.836Z",
+        "updated_at": "2023-09-12T04:21:36.884Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e6de4925-fc50-45a3-8bf4-5d38fc5f9de6",
+        "total_price": 80989,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T04:40:20.894Z",
+        "updated_at": "2023-09-11T16:21:09.243Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "b2095cbd-d788-4aa4-87c5-3c505174e6a6",
+        "quantity": 42638,
+        "price": 35213,
+        "created_at": "2023-09-12T03:35:12.711Z",
+        "updated_at": "2023-09-11T19:58:06.765Z",
+        "order_id": "2a1f0d2d-4c8d-4374-935c-c19675ccc43c",
+        "part_id": "8f7a3125-67d9-4fee-a9bb-e0054169574d"
+      },
+      {
+        "id": "22b8ed87-8f8c-4f80-8c4e-2695b4a29efb",
+        "quantity": 76616,
+        "price": 18528,
+        "created_at": "2023-09-11T15:41:20.215Z",
+        "updated_at": "2023-09-11T07:33:01.261Z",
+        "order_id": "d3c3c486-6559-4f43-baca-43d4820408e8",
+        "part_id": "39dbdfa7-bfd7-4c7d-9d7b-513f04bb01c7"
+      },
+      {
+        "id": "7cd2ce09-03c2-4b0f-830b-8fcaf87241fa",
+        "quantity": 44904,
+        "price": 24364,
+        "created_at": "2023-09-11T15:00:07.932Z",
+        "updated_at": "2023-09-11T11:46:44.618Z",
+        "order_id": "2a1f0d2d-4c8d-4374-935c-c19675ccc43c",
+        "part_id": "e75ff96b-5a7a-46c2-bf89-49c946501ffc"
+      },
+      {
+        "id": "56e172a3-70af-45d6-8500-6ac388f82539",
+        "quantity": 47604,
+        "price": 92445,
+        "created_at": "2023-09-11T16:52:21.485Z",
+        "updated_at": "2023-09-11T09:57:29.100Z",
+        "order_id": "e6de4925-fc50-45a3-8bf4-5d38fc5f9de6",
+        "part_id": "39536601-5a4d-4c33-aebe-a92f6843f9c0"
+      },
+      {
+        "id": "c99333fc-f719-4852-a93e-81f351fcd38d",
+        "quantity": 60943,
+        "price": 16270,
+        "created_at": "2023-09-12T04:50:16.509Z",
+        "updated_at": "2023-09-11T10:58:44.652Z",
+        "order_id": "d3c3c486-6559-4f43-baca-43d4820408e8",
+        "part_id": "8f7a3125-67d9-4fee-a9bb-e0054169574d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7364c7c5-937b-4bcf-b3b6-cccfe62d2995",
+        "email": "Linnea_Blick-Kertzmann@gmail.com",
+        "firstName": "Zita",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/99.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d206679c-7d11-4d47-a532-0b18b03e24ee",
+        "email": "Verona83@yahoo.com",
+        "firstName": "Mitchell",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26332927",
+        "tenantId": null
+      },
+      {
+        "reference": "f2ef8430-7e70-4b9c-a9f0-02c54a823af3",
+        "email": "Claire_Schoen@gmail.com",
+        "firstName": "Paxton",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/508.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53bcd028-2893-4e31-ac96-e653ec4c693d",
+        "email": "Kariane_Okuneva@hotmail.com",
+        "firstName": "Barney",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91438792",
+        "tenantId": null
+      },
+      {
+        "reference": "0f6b52ed-2020-4d72-b3f1-690b0254f438",
+        "email": "Royal.Kemmer@hotmail.com",
+        "firstName": "Josefa",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/870.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "1ae8878a-c56b-4ae6-989b-379ef1354c69",
+        "query": "electronics",
+        "created_at": "2023-09-12T02:05:07.021Z",
+        "updated_at": "2023-09-11T23:38:38.221Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f8f4a6ca-80d9-4210-bc3c-8c6202a879db",
+        "query": "clothing",
+        "created_at": "2023-09-11T21:46:20.936Z",
+        "updated_at": "2023-09-11T08:53:01.503Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "682d21d0-4a6c-43d2-8a74-a60292929ce3",
+        "query": "home appliances",
+        "created_at": "2023-09-12T00:47:00.781Z",
+        "updated_at": "2023-09-11T21:41:53.092Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e9c613a2-a036-4d8d-b422-0a4aa3670318",
+        "query": "fresh produce",
+        "created_at": "2023-09-11T21:36:01.610Z",
+        "updated_at": "2023-09-12T00:23:13.059Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "19aeb93c-f13e-4fd1-b68f-7f282b16ac01",
+        "query": "industrial equipment",
+        "created_at": "2023-09-11T18:47:20.351Z",
+        "updated_at": "2023-09-11T11:17:42.849Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "33fe4e76-c579-4791-b5eb-89e39c1e1d01",
+        "name": "Part A",
+        "price": 67653,
+        "stock_level": 68628,
+        "created_at": "2023-09-12T03:35:17.774Z",
+        "updated_at": "2023-09-11T21:57:26.805Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "c8252f25-01ad-4466-bc74-a60ea454fa8f",
+        "name": "Part B",
+        "price": 48573,
+        "stock_level": 20448,
+        "created_at": "2023-09-11T10:24:06.995Z",
+        "updated_at": "2023-09-11T10:15:44.234Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "419bce07-e47f-45e8-8667-3194f37113d9",
+        "name": "Part C",
+        "price": 88491,
+        "stock_level": 20778,
+        "created_at": "2023-09-12T01:38:59.344Z",
+        "updated_at": "2023-09-11T17:28:36.363Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "b583bdca-a24e-4642-a512-61baf220ecc9",
+        "name": "Part D",
+        "price": 30985,
+        "stock_level": 19895,
+        "created_at": "2023-09-11T16:13:06.164Z",
+        "updated_at": "2023-09-12T02:05:01.208Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "61ef875b-46ab-4bcb-9564-5dcb6afefde7",
+        "name": "Part E",
+        "price": 43242,
+        "stock_level": 52114,
+        "created_at": "2023-09-11T12:31:34.522Z",
+        "updated_at": "2023-09-11T07:26:59.179Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "3cfa8ef1-e8d5-407f-a307-bfdc82942ceb",
+        "total_price": 9509,
+        "status": "Pending",
+        "created_at": "2023-09-11T18:12:00.029Z",
+        "updated_at": "2023-09-12T01:05:49.586Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9970be87-0d9e-4e9f-b181-05730a2ad7a5",
+        "total_price": 47859,
+        "status": "Processing",
+        "created_at": "2023-09-11T07:01:28.070Z",
+        "updated_at": "2023-09-11T23:41:56.752Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7dc33f58-6680-40e9-863a-575e4848ae95",
+        "total_price": 13350,
+        "status": "Shipped",
+        "created_at": "2023-09-11T23:02:59.109Z",
+        "updated_at": "2023-09-11T18:29:37.032Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "022ae1e0-7bb3-482f-930f-e01fe5381599",
+        "total_price": 12338,
+        "status": "Delivered",
+        "created_at": "2023-09-11T10:44:34.092Z",
+        "updated_at": "2023-09-12T04:11:25.698Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9687f82e-3aca-44d5-8164-0628719a6799",
+        "total_price": 81986,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T22:37:21.384Z",
+        "updated_at": "2023-09-11T16:24:01.447Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "6911d7d4-66f3-4e73-98fd-a70f6a2d5e43",
+        "quantity": 58770,
+        "price": 22096,
+        "created_at": "2023-09-11T13:29:13.113Z",
+        "updated_at": "2023-09-11T09:13:47.770Z",
+        "order_id": "022ae1e0-7bb3-482f-930f-e01fe5381599",
+        "part_id": "61ef875b-46ab-4bcb-9564-5dcb6afefde7"
+      },
+      {
+        "id": "82337168-a3e2-495a-9951-c5907807a82d",
+        "quantity": 70073,
+        "price": 6685,
+        "created_at": "2023-09-11T18:40:15.010Z",
+        "updated_at": "2023-09-11T20:21:57.691Z",
+        "order_id": "022ae1e0-7bb3-482f-930f-e01fe5381599",
+        "part_id": "419bce07-e47f-45e8-8667-3194f37113d9"
+      },
+      {
+        "id": "b39668d0-67d8-4fd9-b4ae-cb87810b982d",
+        "quantity": 65922,
+        "price": 96799,
+        "created_at": "2023-09-11T07:51:29.593Z",
+        "updated_at": "2023-09-11T18:13:44.031Z",
+        "order_id": "9687f82e-3aca-44d5-8164-0628719a6799",
+        "part_id": "419bce07-e47f-45e8-8667-3194f37113d9"
+      },
+      {
+        "id": "e0ecf8ad-72e2-4f41-ba6d-0faef977c7b9",
+        "quantity": 52251,
+        "price": 8772,
+        "created_at": "2023-09-12T02:12:21.171Z",
+        "updated_at": "2023-09-12T01:03:54.980Z",
+        "order_id": "022ae1e0-7bb3-482f-930f-e01fe5381599",
+        "part_id": "61ef875b-46ab-4bcb-9564-5dcb6afefde7"
+      },
+      {
+        "id": "b1bdfe15-7308-49c8-8acd-bc639c3f1922",
+        "quantity": 49744,
+        "price": 97266,
+        "created_at": "2023-09-11T18:24:30.353Z",
+        "updated_at": "2023-09-11T10:46:42.755Z",
+        "order_id": "022ae1e0-7bb3-482f-930f-e01fe5381599",
+        "part_id": "419bce07-e47f-45e8-8667-3194f37113d9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d67c8d70-26ce-4e9b-ac5c-6b51bc204977",
+        "email": "Erna35@yahoo.com",
+        "firstName": "Emmanuelle",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30601465",
+        "tenantId": null
+      },
+      {
+        "reference": "70c66c36-d4c3-4881-8138-bc6acf008f1d",
+        "email": "Rogers45@yahoo.com",
+        "firstName": "Ari",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86911822",
+        "tenantId": null
+      },
+      {
+        "reference": "3ae9d1c2-e09c-4fcd-bf09-5b118eb4e465",
+        "email": "Hilbert.Schulist@yahoo.com",
+        "firstName": "Jamey",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19877910",
+        "tenantId": null
+      },
+      {
+        "reference": "5a3bb71f-31b5-472c-a7e9-e3d3cd4094eb",
+        "email": "Fatima.Hickle4@hotmail.com",
+        "firstName": "Aileen",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14004499",
+        "tenantId": null
+      },
+      {
+        "reference": "5e345299-b0e1-4f85-82fc-de2215c37071",
+        "email": "Joshua_Adams@hotmail.com",
+        "firstName": "Jedediah",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "dcdb11d3-9c49-4522-9a08-510928316cbd",
+        "query": "electronics",
+        "created_at": "2023-09-11T13:29:58.814Z",
+        "updated_at": "2023-09-11T06:49:06.636Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4fbe9215-07f5-46b4-b74e-41183fedb370",
+        "query": "furniture",
+        "created_at": "2023-09-11T06:59:02.946Z",
+        "updated_at": "2023-09-11T12:31:48.168Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "84c45d0b-e829-4168-a111-460bbe9a5052",
+        "query": "clothing",
+        "created_at": "2023-09-12T05:24:07.857Z",
+        "updated_at": "2023-09-11T23:40:21.477Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a044727b-1a6d-4ccd-84fb-cfd2f71d4cd8",
+        "query": "appliances",
+        "created_at": "2023-09-11T09:26:21.018Z",
+        "updated_at": "2023-09-11T05:56:04.551Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "faa048a5-5939-473a-83ac-9b201cdc6bc5",
+        "query": "books",
+        "created_at": "2023-09-11T12:33:33.932Z",
+        "updated_at": "2023-09-11T21:57:19.903Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "b817a783-6b46-4dbf-97bb-6ac1b8f39147",
+        "name": "Part A",
+        "price": 54181,
+        "stock_level": 4475,
+        "created_at": "2023-09-11T06:27:52.317Z",
+        "updated_at": "2023-09-11T12:55:39.296Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "3f132de7-0883-4a4b-830f-726864ab06f3",
+        "name": "Part B",
+        "price": 28323,
+        "stock_level": 40552,
+        "created_at": "2023-09-11T21:21:50.280Z",
+        "updated_at": "2023-09-12T00:30:32.955Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "41c70dfe-a528-4962-bc77-8ae888d2830c",
+        "name": "Part C",
+        "price": 23890,
+        "stock_level": 44115,
+        "created_at": "2023-09-11T19:04:42.871Z",
+        "updated_at": "2023-09-12T04:28:25.841Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "f56e56cb-0eea-4a6c-8ff4-f579e550995b",
+        "name": "Part D",
+        "price": 36342,
+        "stock_level": 19143,
+        "created_at": "2023-09-11T06:11:25.235Z",
+        "updated_at": "2023-09-11T06:20:45.972Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "ba8a20d1-1192-4bfc-b378-4ff822194b2c",
+        "name": "Part E",
+        "price": 31761,
+        "stock_level": 32455,
+        "created_at": "2023-09-11T08:52:42.921Z",
+        "updated_at": "2023-09-12T05:05:15.733Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "a33982d3-a19d-485a-8c79-a2e11ab86356",
+        "total_price": 78436,
+        "status": "Pending",
+        "created_at": "2023-09-11T05:42:40.349Z",
+        "updated_at": "2023-09-11T17:33:21.758Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c64b131c-04a2-49b4-bf43-eb210e00f612",
+        "total_price": 56779,
+        "status": "Processing",
+        "created_at": "2023-09-12T01:03:38.910Z",
+        "updated_at": "2023-09-11T23:30:09.470Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a390ad74-10fa-48e5-bed7-75a400094b95",
+        "total_price": 69339,
+        "status": "Shipped",
+        "created_at": "2023-09-11T22:57:06.135Z",
+        "updated_at": "2023-09-11T09:15:06.920Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1d85ff7e-dde9-4dfa-89ad-66f34ebcf75a",
+        "total_price": 10910,
+        "status": "Delivered",
+        "created_at": "2023-09-12T02:11:51.939Z",
+        "updated_at": "2023-09-11T11:45:21.800Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5cde5de9-e74d-4bf2-bb79-57415b2605ec",
+        "total_price": 56442,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T06:03:42.821Z",
+        "updated_at": "2023-09-11T16:23:45.693Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "47d7e743-aef2-4d0d-bff1-8507ba531513",
+        "quantity": 132,
+        "price": 29993,
+        "created_at": "2023-09-11T14:57:07.738Z",
+        "updated_at": "2023-09-11T13:30:58.054Z",
+        "order_id": "c64b131c-04a2-49b4-bf43-eb210e00f612",
+        "part_id": "b817a783-6b46-4dbf-97bb-6ac1b8f39147"
+      },
+      {
+        "id": "9866f0c2-40d6-42ed-8a17-1bdea321f220",
+        "quantity": 91023,
+        "price": 72313,
+        "created_at": "2023-09-11T18:56:17.342Z",
+        "updated_at": "2023-09-12T01:09:59.955Z",
+        "order_id": "1d85ff7e-dde9-4dfa-89ad-66f34ebcf75a",
+        "part_id": "41c70dfe-a528-4962-bc77-8ae888d2830c"
+      },
+      {
+        "id": "1f8db68f-836d-4ea6-b891-cc9e945e4882",
+        "quantity": 98455,
+        "price": 72747,
+        "created_at": "2023-09-11T22:42:28.323Z",
+        "updated_at": "2023-09-12T03:17:21.119Z",
+        "order_id": "1d85ff7e-dde9-4dfa-89ad-66f34ebcf75a",
+        "part_id": "ba8a20d1-1192-4bfc-b378-4ff822194b2c"
+      },
+      {
+        "id": "ca1629ac-4dcd-4c61-8838-91b8a2a1b51c",
+        "quantity": 51117,
+        "price": 58382,
+        "created_at": "2023-09-11T13:25:52.494Z",
+        "updated_at": "2023-09-11T05:52:11.489Z",
+        "order_id": "5cde5de9-e74d-4bf2-bb79-57415b2605ec",
+        "part_id": "3f132de7-0883-4a4b-830f-726864ab06f3"
+      },
+      {
+        "id": "c2d2f050-0762-414e-8fb0-3166dbccc5a0",
+        "quantity": 14726,
+        "price": 81281,
+        "created_at": "2023-09-11T19:29:54.489Z",
+        "updated_at": "2023-09-12T01:00:01.646Z",
+        "order_id": "a33982d3-a19d-485a-8c79-a2e11ab86356",
+        "part_id": "41c70dfe-a528-4962-bc77-8ae888d2830c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4f16ae88-ed2e-4a9f-bdce-b5edb022df0b",
+        "email": "Afton_Goyette@hotmail.com",
+        "firstName": "Larry",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/565.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8e81ea2-a7a8-4076-a75c-13aa7dcdfe71",
+        "email": "Carmelo_Ondricka@yahoo.com",
+        "firstName": "Eldon",
+        "lastName": "Mayert-Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13553021",
+        "tenantId": null
+      },
+      {
+        "reference": "0804cb18-51b5-4a61-9b35-d6ff2cd9e8db",
+        "email": "Van74@yahoo.com",
+        "firstName": "Holden",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/364.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f2719b1-ebbd-4615-be17-751966703b47",
+        "email": "Lacy_Schulist56@gmail.com",
+        "firstName": "Javier",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49376445",
+        "tenantId": null
+      },
+      {
+        "reference": "62b85d37-b34d-4536-923b-b475f7e4897d",
+        "email": "Magnolia_Pfannerstill50@hotmail.com",
+        "firstName": "Dexter",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44291",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "f9f7b5af-b366-47c0-a36b-ee76c1e4faf0",
+        "query": "product",
+        "created_at": "2023-09-11T11:56:32.516Z",
+        "updated_at": "2023-09-12T02:59:26.850Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f5a827cb-55fb-43e0-b606-ca254199d92e",
+        "query": "service",
+        "created_at": "2023-09-11T18:57:16.536Z",
+        "updated_at": "2023-09-11T06:45:44.068Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "acf96acd-c762-4288-ac6c-3a0be3f421db",
+        "query": "price",
+        "created_at": "2023-09-11T09:36:20.035Z",
+        "updated_at": "2023-09-12T03:34:51.481Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a3c3b5a3-27aa-41c9-8f14-c83e9dcbef9c",
+        "query": "availability",
+        "created_at": "2023-09-11T14:18:54.829Z",
+        "updated_at": "2023-09-11T20:32:54.822Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "6001eec3-5a31-426f-89dd-acbf1f029d13",
+        "query": "delivery",
+        "created_at": "2023-09-12T01:11:36.822Z",
+        "updated_at": "2023-09-11T07:14:35.847Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "816604c3-efcf-4374-8c6e-c1b0f67d2531",
+        "name": "Part A",
+        "price": 35436,
+        "stock_level": 91291,
+        "created_at": "2023-09-11T11:33:44.955Z",
+        "updated_at": "2023-09-11T18:52:40.751Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "b0cf44ec-f205-445d-babe-a85fa74c8b0b",
+        "name": "Part B",
+        "price": 20619,
+        "stock_level": 66340,
+        "created_at": "2023-09-12T04:42:23.181Z",
+        "updated_at": "2023-09-11T14:06:56.051Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "d99fe662-a55e-44b9-8e7d-6a2744521fd4",
+        "name": "Part C",
+        "price": 13086,
+        "stock_level": 58185,
+        "created_at": "2023-09-11T23:46:18.966Z",
+        "updated_at": "2023-09-12T04:15:44.532Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "7a1c0c48-f041-43b1-98ad-4d5e2ac61b9b",
+        "name": "Part D",
+        "price": 70704,
+        "stock_level": 88798,
+        "created_at": "2023-09-11T15:02:58.387Z",
+        "updated_at": "2023-09-11T22:06:54.357Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "4bbfbc1e-dc27-4e93-b8fd-e21c9d5bc2de",
+        "name": "Part E",
+        "price": 75340,
+        "stock_level": 62683,
+        "created_at": "2023-09-11T09:18:35.740Z",
+        "updated_at": "2023-09-11T06:45:35.053Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "e7ca9978-2d81-4783-85ed-e9d7cc63b578",
+        "total_price": 8175,
+        "status": "Pending",
+        "created_at": "2023-09-12T03:46:13.268Z",
+        "updated_at": "2023-09-11T17:18:58.215Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5a222228-73e6-4614-a9bb-26383b402cc1",
+        "total_price": 84810,
+        "status": "Processing",
+        "created_at": "2023-09-11T14:08:19.765Z",
+        "updated_at": "2023-09-11T18:41:10.281Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d203eb3d-4176-46d8-8e74-1e592438da8b",
+        "total_price": 73883,
+        "status": "Shipped",
+        "created_at": "2023-09-11T12:49:09.740Z",
+        "updated_at": "2023-09-11T16:04:34.973Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a3f847ad-3b39-496b-be21-f737de4e40f3",
+        "total_price": 22293,
+        "status": "Delivered",
+        "created_at": "2023-09-12T03:54:23.031Z",
+        "updated_at": "2023-09-11T14:24:48.467Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c144a50e-c5b6-4797-9b64-136b0d91850a",
+        "total_price": 75808,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T09:17:26.516Z",
+        "updated_at": "2023-09-11T13:12:58.045Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "67a6f491-0ef8-4960-bbdb-119b8a31a369",
+        "quantity": 75584,
+        "price": 33754,
+        "created_at": "2023-09-12T04:17:48.822Z",
+        "updated_at": "2023-09-11T12:13:52.633Z",
+        "order_id": "5a222228-73e6-4614-a9bb-26383b402cc1",
+        "part_id": "4bbfbc1e-dc27-4e93-b8fd-e21c9d5bc2de"
+      },
+      {
+        "id": "562735d9-62ed-46de-8954-9868d0a7ebbf",
+        "quantity": 4933,
+        "price": 9183,
+        "created_at": "2023-09-11T19:07:16.208Z",
+        "updated_at": "2023-09-11T16:09:50.241Z",
+        "order_id": "5a222228-73e6-4614-a9bb-26383b402cc1",
+        "part_id": "7a1c0c48-f041-43b1-98ad-4d5e2ac61b9b"
+      },
+      {
+        "id": "0b1a720b-6bd4-4ae7-a819-c9129461d093",
+        "quantity": 43316,
+        "price": 24806,
+        "created_at": "2023-09-11T05:53:11.377Z",
+        "updated_at": "2023-09-11T10:08:21.793Z",
+        "order_id": "c144a50e-c5b6-4797-9b64-136b0d91850a",
+        "part_id": "b0cf44ec-f205-445d-babe-a85fa74c8b0b"
+      },
+      {
+        "id": "89cea4bc-e8bf-45cc-9cdb-a2d0078aedcc",
+        "quantity": 664,
+        "price": 75886,
+        "created_at": "2023-09-12T02:30:51.155Z",
+        "updated_at": "2023-09-11T13:36:02.615Z",
+        "order_id": "5a222228-73e6-4614-a9bb-26383b402cc1",
+        "part_id": "7a1c0c48-f041-43b1-98ad-4d5e2ac61b9b"
+      },
+      {
+        "id": "60022ae8-4c8c-49a8-ae0e-f40041e99c28",
+        "quantity": 88934,
+        "price": 85711,
+        "created_at": "2023-09-11T17:26:49.353Z",
+        "updated_at": "2023-09-11T22:54:21.729Z",
+        "order_id": "5a222228-73e6-4614-a9bb-26383b402cc1",
+        "part_id": "7a1c0c48-f041-43b1-98ad-4d5e2ac61b9b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ca7075dd-0cb6-47c0-a3fe-fe38524f779e",
+        "email": "Jaime16@gmail.com",
+        "firstName": "Bridie",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73512590",
+        "tenantId": null
+      },
+      {
+        "reference": "ec7aec6f-6d2a-48ee-b802-c93ea8a46089",
+        "email": "Emely77@yahoo.com",
+        "firstName": "Lucas",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43497662",
+        "tenantId": null
+      },
+      {
+        "reference": "ac5f4b23-13b8-4d52-8666-843e3d8887c9",
+        "email": "Vernie10@yahoo.com",
+        "firstName": "Valentin",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/287.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f2a6502-08a8-4c62-a336-1eabe0d0e2ca",
+        "email": "Veronica.Lynch@gmail.com",
+        "firstName": "Finn",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/414.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38342d57-44c4-4093-b711-f205a8040a6d",
+        "email": "Alia46@yahoo.com",
+        "firstName": "Burley",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "10c50f3e-b178-4c18-bae1-476b16615b61",
+        "query": "electronics",
+        "created_at": "2023-09-11T11:57:28.006Z",
+        "updated_at": "2023-09-11T20:40:37.801Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c9c7e831-a632-4189-beaa-b08a65fec55c",
+        "query": "furniture",
+        "created_at": "2023-09-11T13:50:05.307Z",
+        "updated_at": "2023-09-11T12:47:44.746Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "de74097e-3073-4d8c-aff4-18ea2ca20268",
+        "query": "clothing",
+        "created_at": "2023-09-12T01:19:19.865Z",
+        "updated_at": "2023-09-11T22:39:53.498Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ac6824ad-91e4-410a-8c07-0e53010fc45d",
+        "query": "appliances",
+        "created_at": "2023-09-11T19:53:07.750Z",
+        "updated_at": "2023-09-11T07:53:36.302Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1a783c9b-60f0-41ef-8076-b3ccf53523ca",
+        "query": "books",
+        "created_at": "2023-09-11T11:28:12.571Z",
+        "updated_at": "2023-09-11T07:42:34.625Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "d3379034-5ae0-40d7-9445-e315aa167541",
+        "name": "Part A",
+        "price": 25837,
+        "stock_level": 43080,
+        "created_at": "2023-09-11T20:21:05.731Z",
+        "updated_at": "2023-09-11T10:25:37.896Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "2b86d6bc-3722-426a-83a2-709113eddb14",
+        "name": "Part B",
+        "price": 96258,
+        "stock_level": 46754,
+        "created_at": "2023-09-12T02:54:38.959Z",
+        "updated_at": "2023-09-12T02:29:12.158Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "54910cba-d02b-4f5a-bae3-938824958de7",
+        "name": "Part C",
+        "price": 57480,
+        "stock_level": 41472,
+        "created_at": "2023-09-11T09:17:00.818Z",
+        "updated_at": "2023-09-11T12:20:46.533Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "a1cb28ca-6afa-4080-a4c8-338c59651bbf",
+        "name": "Part D",
+        "price": 99657,
+        "stock_level": 41217,
+        "created_at": "2023-09-12T01:47:37.218Z",
+        "updated_at": "2023-09-11T06:11:59.551Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "5e3eb027-3753-4110-988a-27386417c65b",
+        "name": "Part E",
+        "price": 98086,
+        "stock_level": 32136,
+        "created_at": "2023-09-11T13:30:26.795Z",
+        "updated_at": "2023-09-11T10:51:52.216Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "55dc5542-042e-4b69-bfa2-c2a2ef94f971",
+        "total_price": 15640,
+        "status": "Pending",
+        "created_at": "2023-09-11T10:00:42.677Z",
+        "updated_at": "2023-09-12T01:34:44.195Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b8c22832-2076-4b6d-ad3c-50a2afe02b3e",
+        "total_price": 39552,
+        "status": "Processing",
+        "created_at": "2023-09-12T00:16:06.999Z",
+        "updated_at": "2023-09-11T14:13:38.891Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9025c931-69c6-4cf4-9e4f-0c3e765eb834",
+        "total_price": 93002,
+        "status": "Shipped",
+        "created_at": "2023-09-11T09:56:11.708Z",
+        "updated_at": "2023-09-11T06:49:20.768Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3479c1d6-d511-4099-97c7-b1dcde09762a",
+        "total_price": 62464,
+        "status": "Delivered",
+        "created_at": "2023-09-11T12:28:20.145Z",
+        "updated_at": "2023-09-12T05:00:41.200Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "90c4b90a-1c09-4f26-ab71-f93216799be8",
+        "total_price": 35625,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T14:31:29.854Z",
+        "updated_at": "2023-09-11T16:11:44.728Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "a1704998-5661-44f8-828a-739ef249bf54",
+        "quantity": 65592,
+        "price": 28935,
+        "created_at": "2023-09-11T12:10:28.947Z",
+        "updated_at": "2023-09-12T04:30:09.932Z",
+        "order_id": "b8c22832-2076-4b6d-ad3c-50a2afe02b3e",
+        "part_id": "5e3eb027-3753-4110-988a-27386417c65b"
+      },
+      {
+        "id": "91f953f6-7727-4ab5-84df-1a4b48fbd3fa",
+        "quantity": 829,
+        "price": 22371,
+        "created_at": "2023-09-12T01:17:22.632Z",
+        "updated_at": "2023-09-11T23:45:02.865Z",
+        "order_id": "b8c22832-2076-4b6d-ad3c-50a2afe02b3e",
+        "part_id": "54910cba-d02b-4f5a-bae3-938824958de7"
+      },
+      {
+        "id": "a5af399b-5619-4338-bd01-ff5bbde61f52",
+        "quantity": 23521,
+        "price": 49829,
+        "created_at": "2023-09-12T01:12:35.972Z",
+        "updated_at": "2023-09-11T23:16:00.440Z",
+        "order_id": "b8c22832-2076-4b6d-ad3c-50a2afe02b3e",
+        "part_id": "2b86d6bc-3722-426a-83a2-709113eddb14"
+      },
+      {
+        "id": "d12e8f08-61c9-4db3-9db8-31efa9d691ee",
+        "quantity": 2858,
+        "price": 14154,
+        "created_at": "2023-09-11T07:31:36.140Z",
+        "updated_at": "2023-09-12T02:00:23.656Z",
+        "order_id": "90c4b90a-1c09-4f26-ab71-f93216799be8",
+        "part_id": "2b86d6bc-3722-426a-83a2-709113eddb14"
+      },
+      {
+        "id": "c7a175f9-26f6-4077-a33b-641f9c1465cf",
+        "quantity": 43078,
+        "price": 97018,
+        "created_at": "2023-09-11T17:15:23.943Z",
+        "updated_at": "2023-09-11T15:49:35.253Z",
+        "order_id": "90c4b90a-1c09-4f26-ab71-f93216799be8",
+        "part_id": "54910cba-d02b-4f5a-bae3-938824958de7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f38f6b76-8829-45ba-b512-14e73f8f366a",
+        "email": "Destin.Champlin@gmail.com",
+        "firstName": "Mike",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/936.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e9ebcff-7099-491e-bcba-848f4d595a89",
+        "email": "Anibal84@gmail.com",
+        "firstName": "Alayna",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/92.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "443cea26-e7f9-4b9e-8b79-e663f601cddc",
+        "email": "Lucas_Rau76@gmail.com",
+        "firstName": "Jeremie",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16755148",
+        "tenantId": null
+      },
+      {
+        "reference": "d8fb027d-ac73-4e3a-b296-e9c86c9066a5",
+        "email": "Lia29@hotmail.com",
+        "firstName": "Joshua",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/794.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50e382f9-66a7-44b6-9a38-26f26b243ec6",
+        "email": "Hermina_Zboncak@yahoo.com",
+        "firstName": "Delaney",
+        "lastName": "Harvey-McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/605.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "8b58c50d-2789-434e-b6b8-696f58064685",
+        "query": "electronics",
+        "created_at": "2023-09-11T08:22:45.555Z",
+        "updated_at": "2023-09-11T19:38:14.247Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e9152dde-a269-4db7-a03d-e27a970903af",
+        "query": "furniture",
+        "created_at": "2023-09-11T13:25:04.165Z",
+        "updated_at": "2023-09-11T11:22:20.754Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e56dac29-55fa-46ac-b5c9-3fd83a1db300",
+        "query": "clothing",
+        "created_at": "2023-09-11T19:31:57.530Z",
+        "updated_at": "2023-09-11T18:40:14.245Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ef9d60a2-ad15-4d9e-b457-26df1597178b",
+        "query": "home decor",
+        "created_at": "2023-09-11T16:57:40.167Z",
+        "updated_at": "2023-09-11T21:39:56.481Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4059a6a6-ec0b-4bfd-93d1-f61baaa22d8b",
+        "query": "appliances",
+        "created_at": "2023-09-12T05:24:36.495Z",
+        "updated_at": "2023-09-12T05:30:31.351Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "ce5d3eae-0d38-4b25-b948-855d05085a7a",
+        "name": "Part A",
+        "price": 55866,
+        "stock_level": 9102,
+        "created_at": "2023-09-11T14:38:53.137Z",
+        "updated_at": "2023-09-11T06:34:28.900Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "5b6f4225-bf44-4bde-a9fe-d9d797ca54b5",
+        "name": "Part B",
+        "price": 72927,
+        "stock_level": 32139,
+        "created_at": "2023-09-11T12:07:12.341Z",
+        "updated_at": "2023-09-11T13:59:00.170Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "27b47862-6abd-4d94-bf14-2fe00c7ed426",
+        "name": "Part C",
+        "price": 52176,
+        "stock_level": 27092,
+        "created_at": "2023-09-11T21:08:10.991Z",
+        "updated_at": "2023-09-11T17:27:27.355Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "7531c91a-db5d-4168-bbd1-79c0d657bf94",
+        "name": "Part D",
+        "price": 17842,
+        "stock_level": 22868,
+        "created_at": "2023-09-11T23:57:29.893Z",
+        "updated_at": "2023-09-11T09:15:25.287Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "bd0079c7-6793-45f8-9b8c-ac1fc5ab35d0",
+        "name": "Part E",
+        "price": 46783,
+        "stock_level": 75712,
+        "created_at": "2023-09-11T18:06:23.869Z",
+        "updated_at": "2023-09-11T19:12:08.774Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "1effe311-e3a0-45b0-bda4-c9a9cfd1f637",
+        "total_price": 88759,
+        "status": "Pending",
+        "created_at": "2023-09-11T16:24:40.743Z",
+        "updated_at": "2023-09-12T04:15:21.196Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4ad2dcce-011b-4bd1-9c8b-b37bc9ca4523",
+        "total_price": 82157,
+        "status": "Processing",
+        "created_at": "2023-09-11T21:33:45.105Z",
+        "updated_at": "2023-09-12T00:37:43.181Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "40145870-60cd-47a8-8e48-bac943c13781",
+        "total_price": 55323,
+        "status": "Shipped",
+        "created_at": "2023-09-11T08:19:16.938Z",
+        "updated_at": "2023-09-11T06:14:32.114Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "968b06ff-d65f-4f95-9623-977e79b5d7f9",
+        "total_price": 2589,
+        "status": "Delivered",
+        "created_at": "2023-09-11T18:17:22.296Z",
+        "updated_at": "2023-09-12T04:18:40.987Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c113b702-f8ea-4b8d-a046-2dff291bf741",
+        "total_price": 21577,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T14:08:49.297Z",
+        "updated_at": "2023-09-12T03:16:02.132Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "b7ee1c27-f7ed-4ed7-87d0-4735e04af266",
+        "quantity": 83671,
+        "price": 24197,
+        "created_at": "2023-09-12T05:21:21.895Z",
+        "updated_at": "2023-09-12T05:32:43.684Z",
+        "order_id": "968b06ff-d65f-4f95-9623-977e79b5d7f9",
+        "part_id": "5b6f4225-bf44-4bde-a9fe-d9d797ca54b5"
+      },
+      {
+        "id": "77c48d36-00c1-4bde-b83f-313a21821185",
+        "quantity": 95796,
+        "price": 67104,
+        "created_at": "2023-09-12T00:14:56.253Z",
+        "updated_at": "2023-09-12T00:24:44.142Z",
+        "order_id": "4ad2dcce-011b-4bd1-9c8b-b37bc9ca4523",
+        "part_id": "5b6f4225-bf44-4bde-a9fe-d9d797ca54b5"
+      },
+      {
+        "id": "7bb3a00f-c707-4070-b896-02050a73e62f",
+        "quantity": 17444,
+        "price": 34414,
+        "created_at": "2023-09-11T16:01:21.123Z",
+        "updated_at": "2023-09-12T04:57:01.883Z",
+        "order_id": "1effe311-e3a0-45b0-bda4-c9a9cfd1f637",
+        "part_id": "5b6f4225-bf44-4bde-a9fe-d9d797ca54b5"
+      },
+      {
+        "id": "a441df39-d801-4144-bbfc-6e7aa8aee2d1",
+        "quantity": 92328,
+        "price": 9562,
+        "created_at": "2023-09-11T18:18:01.169Z",
+        "updated_at": "2023-09-12T01:47:19.652Z",
+        "order_id": "4ad2dcce-011b-4bd1-9c8b-b37bc9ca4523",
+        "part_id": "ce5d3eae-0d38-4b25-b948-855d05085a7a"
+      },
+      {
+        "id": "e4d73a06-cf76-4833-96de-9315f7015209",
+        "quantity": 80205,
+        "price": 14948,
+        "created_at": "2023-09-11T16:47:58.000Z",
+        "updated_at": "2023-09-11T09:52:20.259Z",
+        "order_id": "968b06ff-d65f-4f95-9623-977e79b5d7f9",
+        "part_id": "5b6f4225-bf44-4bde-a9fe-d9d797ca54b5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "02bd2892-ca12-437b-981e-ee5e5455cbec",
+        "email": "Luther7@gmail.com",
+        "firstName": "Palma",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70486171",
+        "tenantId": null
+      },
+      {
+        "reference": "f1ef2730-e2ca-4b1c-b492-e7443cc2931b",
+        "email": "Mariah.Raynor@hotmail.com",
+        "firstName": "Malinda",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4f3685a-3fd3-471d-8862-50b12f1bc255",
+        "email": "Maurine.Leannon96@gmail.com",
+        "firstName": "Delaney",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/455.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a187db44-ecfc-47e0-a503-75f448024790",
+        "email": "Joseph_Tillman@yahoo.com",
+        "firstName": "Clementine",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64692860",
+        "tenantId": null
+      },
+      {
+        "reference": "7fc11b97-9389-46da-bae2-4b91b3821178",
+        "email": "Rocky_Weimann20@hotmail.com",
+        "firstName": "Yessenia",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1198.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "7e52ba73-a842-4da5-bc01-6b076e4d4fa6",
+        "query": "electronics",
+        "created_at": "2023-09-11T22:31:29.056Z",
+        "updated_at": "2023-09-12T03:46:53.368Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "320fb933-7a47-4789-8fb8-6a340d91defd",
+        "query": "furniture",
+        "created_at": "2023-09-11T13:30:05.765Z",
+        "updated_at": "2023-09-12T01:56:57.569Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f72e3ed1-27f9-4f72-80dd-55c5837e114e",
+        "query": "clothing",
+        "created_at": "2023-09-11T11:48:41.273Z",
+        "updated_at": "2023-09-12T03:21:08.256Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d525642d-1a77-4221-aec3-683ce06538d5",
+        "query": "appliances",
+        "created_at": "2023-09-11T11:22:33.441Z",
+        "updated_at": "2023-09-12T00:08:39.349Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9477244d-d6fb-4546-8c82-b51c36b21bea",
+        "query": "books",
+        "created_at": "2023-09-11T16:45:48.615Z",
+        "updated_at": "2023-09-11T16:38:48.292Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "677f2104-9083-4907-b894-0c5f34225507",
+        "name": "Part A",
+        "price": 95210,
+        "stock_level": 83891,
+        "created_at": "2023-09-11T11:08:52.730Z",
+        "updated_at": "2023-09-11T09:52:10.337Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "9e0891c2-d42e-4bc3-a1d4-6fb2abee577b",
+        "name": "Part B",
+        "price": 11826,
+        "stock_level": 92503,
+        "created_at": "2023-09-11T11:23:17.350Z",
+        "updated_at": "2023-09-11T21:44:34.943Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "4b9c7d0d-a41f-4aa9-a958-572b53ff26eb",
+        "name": "Part C",
+        "price": 60505,
+        "stock_level": 35518,
+        "created_at": "2023-09-11T14:28:02.853Z",
+        "updated_at": "2023-09-11T17:30:17.105Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "8d0887d6-3c5d-463e-b330-e8d2fa09af2f",
+        "name": "Part D",
+        "price": 90900,
+        "stock_level": 56588,
+        "created_at": "2023-09-11T19:01:58.534Z",
+        "updated_at": "2023-09-12T00:11:38.217Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "d871654e-ebd1-4e15-a2cc-b91ee1789e2a",
+        "name": "Part E",
+        "price": 30724,
+        "stock_level": 95718,
+        "created_at": "2023-09-11T13:04:43.945Z",
+        "updated_at": "2023-09-11T13:37:17.604Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "14a65c3f-7bc0-4c57-ad4c-45f1f90b2717",
+        "total_price": 5340,
+        "status": "Pending",
+        "created_at": "2023-09-11T14:19:38.492Z",
+        "updated_at": "2023-09-11T10:32:40.063Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "43b94b05-a06b-4747-889f-0f90245a2d47",
+        "total_price": 85354,
+        "status": "Processing",
+        "created_at": "2023-09-12T00:36:24.581Z",
+        "updated_at": "2023-09-11T14:38:47.102Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "435884a8-945e-4f3c-9383-48d6213d2f92",
+        "total_price": 42122,
+        "status": "Shipped",
+        "created_at": "2023-09-12T05:02:46.939Z",
+        "updated_at": "2023-09-12T04:41:24.319Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1b6848-5d42-46a5-abba-d96788f292c7",
+        "total_price": 33325,
+        "status": "Delivered",
+        "created_at": "2023-09-11T08:50:09.260Z",
+        "updated_at": "2023-09-12T04:36:24.928Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c68bf08b-94ce-4461-b8ad-596e3e428f6d",
+        "total_price": 13763,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T07:59:33.855Z",
+        "updated_at": "2023-09-11T17:30:44.130Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "2e36c0d0-347d-498f-ac07-e360fa050ea6",
+        "quantity": 23060,
+        "price": 40436,
+        "created_at": "2023-09-12T00:57:53.739Z",
+        "updated_at": "2023-09-11T23:15:29.328Z",
+        "order_id": "435884a8-945e-4f3c-9383-48d6213d2f92",
+        "part_id": "677f2104-9083-4907-b894-0c5f34225507"
+      },
+      {
+        "id": "b865d5b0-bf39-4f9b-aae0-e87e8ca319d1",
+        "quantity": 78369,
+        "price": 84790,
+        "created_at": "2023-09-11T05:43:43.016Z",
+        "updated_at": "2023-09-11T14:17:06.122Z",
+        "order_id": "435884a8-945e-4f3c-9383-48d6213d2f92",
+        "part_id": "4b9c7d0d-a41f-4aa9-a958-572b53ff26eb"
+      },
+      {
+        "id": "dd938f1a-2d16-44b1-895b-69a5fa234ed9",
+        "quantity": 39343,
+        "price": 97681,
+        "created_at": "2023-09-12T00:34:24.485Z",
+        "updated_at": "2023-09-11T11:03:18.602Z",
+        "order_id": "435884a8-945e-4f3c-9383-48d6213d2f92",
+        "part_id": "4b9c7d0d-a41f-4aa9-a958-572b53ff26eb"
+      },
+      {
+        "id": "ef6c8726-9487-4092-a5aa-012a3da13789",
+        "quantity": 96458,
+        "price": 57424,
+        "created_at": "2023-09-11T22:08:09.370Z",
+        "updated_at": "2023-09-12T01:38:03.823Z",
+        "order_id": "1a1b6848-5d42-46a5-abba-d96788f292c7",
+        "part_id": "4b9c7d0d-a41f-4aa9-a958-572b53ff26eb"
+      },
+      {
+        "id": "abb16661-14c6-441e-90f0-c4d1c749d03f",
+        "quantity": 47606,
+        "price": 77444,
+        "created_at": "2023-09-11T07:15:33.116Z",
+        "updated_at": "2023-09-11T23:34:43.006Z",
+        "order_id": "1a1b6848-5d42-46a5-abba-d96788f292c7",
+        "part_id": "4b9c7d0d-a41f-4aa9-a958-572b53ff26eb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6f6fcac-16c5-44d3-99e0-030265db5a9b",
+        "email": "Dejah_Fay@gmail.com",
+        "firstName": "Alford",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35492192",
+        "tenantId": null
+      },
+      {
+        "reference": "9a02ddd5-5316-4589-b8c8-b811f0c8c189",
+        "email": "Pascale79@gmail.com",
+        "firstName": "Kaycee",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72743316",
+        "tenantId": null
+      },
+      {
+        "reference": "eab06467-87a7-4fb4-b6ac-53c28c6a8043",
+        "email": "Damian.Terry49@hotmail.com",
+        "firstName": "Jonathan",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95413029",
+        "tenantId": null
+      },
+      {
+        "reference": "b6261229-e940-42be-8dc4-ae3276deb3d6",
+        "email": "Marlin.Moore21@yahoo.com",
+        "firstName": "Cristal",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b70b8b18-27bf-466d-a2a9-3e9aa7ac163a",
+        "email": "Mandy_Dicki@gmail.com",
+        "firstName": "Amparo",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "05f9a230-c064-47ef-9a2c-47ff78e2d2c9",
+        "query": "electronics",
+        "created_at": "2023-09-11T20:11:57.085Z",
+        "updated_at": "2023-09-12T02:49:59.284Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d5a9a044-d0e2-425f-93a5-5f16bc8af625",
+        "query": "furniture",
+        "created_at": "2023-09-11T12:22:54.764Z",
+        "updated_at": "2023-09-11T20:03:01.723Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "44501f5f-bc33-4f15-924b-4674dd67b5a5",
+        "query": "clothing",
+        "created_at": "2023-09-12T04:42:17.184Z",
+        "updated_at": "2023-09-12T04:47:07.071Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e827b378-141b-4697-983f-2ab62037d9b0",
+        "query": "appliances",
+        "created_at": "2023-09-12T04:47:57.889Z",
+        "updated_at": "2023-09-11T11:31:57.808Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "43b90669-ace1-4867-9c12-7dba0f4a4350",
+        "query": "books",
+        "created_at": "2023-09-11T12:01:52.581Z",
+        "updated_at": "2023-09-11T17:35:59.931Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "9c877170-9c66-411c-b3f9-a83ab079ad3b",
+        "name": "Widget",
+        "price": 49383,
+        "stock_level": 35226,
+        "created_at": "2023-09-11T08:56:44.785Z",
+        "updated_at": "2023-09-11T17:18:36.955Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "72e75f0f-c828-4951-8525-a20c85dbbd45",
+        "name": "Gizmo",
+        "price": 26588,
+        "stock_level": 10955,
+        "created_at": "2023-09-12T03:26:12.886Z",
+        "updated_at": "2023-09-11T19:23:28.256Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "dfb32ae8-998c-4ff8-aac6-804e890760ae",
+        "name": "Component",
+        "price": 54488,
+        "stock_level": 78126,
+        "created_at": "2023-09-11T22:25:01.112Z",
+        "updated_at": "2023-09-11T14:53:07.588Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "de5f4cb7-4736-47bd-9a28-21ffc96ff173",
+        "name": "Accessory",
+        "price": 15266,
+        "stock_level": 6627,
+        "created_at": "2023-09-11T22:44:31.046Z",
+        "updated_at": "2023-09-11T20:57:55.591Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "5bad1eac-1001-47de-ab44-4d6aab090177",
+        "name": "Module",
+        "price": 56620,
+        "stock_level": 40793,
+        "created_at": "2023-09-11T16:25:11.484Z",
+        "updated_at": "2023-09-11T11:11:29.185Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "645693eb-ff4e-473d-a53b-f632194976bf",
+        "total_price": 61421,
+        "status": "Pending",
+        "created_at": "2023-09-11T10:32:01.399Z",
+        "updated_at": "2023-09-11T07:25:26.068Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ec637414-b0cb-4424-8f01-7ee622d31ff9",
+        "total_price": 3999,
+        "status": "Processing",
+        "created_at": "2023-09-11T18:06:26.197Z",
+        "updated_at": "2023-09-11T17:52:55.744Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f7ae80c1-008d-4a3f-9830-7b5f167c91de",
+        "total_price": 45137,
+        "status": "Shipped",
+        "created_at": "2023-09-12T00:10:15.565Z",
+        "updated_at": "2023-09-11T15:31:47.770Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "10ad7fac-6551-450e-982b-90a6ca6514cb",
+        "total_price": 45463,
+        "status": "Delivered",
+        "created_at": "2023-09-12T05:36:23.149Z",
+        "updated_at": "2023-09-11T17:54:37.789Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "40f59548-bfef-4007-ac40-e9b939b531df",
+        "total_price": 85188,
+        "status": "Cancelled",
+        "created_at": "2023-09-12T00:33:16.458Z",
+        "updated_at": "2023-09-11T11:29:49.022Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "509476cc-2776-4c58-98ee-e5a495945078",
+        "quantity": 82761,
+        "price": 24743,
+        "created_at": "2023-09-12T00:56:11.435Z",
+        "updated_at": "2023-09-11T12:21:24.153Z",
+        "order_id": "f7ae80c1-008d-4a3f-9830-7b5f167c91de",
+        "part_id": "9c877170-9c66-411c-b3f9-a83ab079ad3b"
+      },
+      {
+        "id": "2cf06764-a0d2-42c7-84a5-ced679f9b475",
+        "quantity": 38701,
+        "price": 62483,
+        "created_at": "2023-09-12T05:23:54.963Z",
+        "updated_at": "2023-09-11T11:13:28.885Z",
+        "order_id": "40f59548-bfef-4007-ac40-e9b939b531df",
+        "part_id": "dfb32ae8-998c-4ff8-aac6-804e890760ae"
+      },
+      {
+        "id": "77f3a653-0bab-4bb2-ae72-f0a8d4f324d0",
+        "quantity": 26268,
+        "price": 84034,
+        "created_at": "2023-09-11T18:13:15.397Z",
+        "updated_at": "2023-09-12T05:02:27.622Z",
+        "order_id": "40f59548-bfef-4007-ac40-e9b939b531df",
+        "part_id": "9c877170-9c66-411c-b3f9-a83ab079ad3b"
+      },
+      {
+        "id": "38f8df73-29f6-41c7-ac30-24c1988a5960",
+        "quantity": 83828,
+        "price": 78338,
+        "created_at": "2023-09-11T10:56:34.492Z",
+        "updated_at": "2023-09-11T19:34:08.983Z",
+        "order_id": "ec637414-b0cb-4424-8f01-7ee622d31ff9",
+        "part_id": "9c877170-9c66-411c-b3f9-a83ab079ad3b"
+      },
+      {
+        "id": "3ca8091c-0a09-46b3-9ded-13c916d2f6e1",
+        "quantity": 32571,
+        "price": 92774,
+        "created_at": "2023-09-11T20:20:01.205Z",
+        "updated_at": "2023-09-11T15:07:01.814Z",
+        "order_id": "40f59548-bfef-4007-ac40-e9b939b531df",
+        "part_id": "9c877170-9c66-411c-b3f9-a83ab079ad3b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ef8c8b9-0da4-401e-8715-5c72bd0acc58",
+        "email": "Berniece_Corwin8@hotmail.com",
+        "firstName": "Alysa",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/778.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca51515c-5ae4-436d-b042-be083a762c10",
+        "email": "Orpha.Hahn@gmail.com",
+        "firstName": "Maida",
+        "lastName": "Botsford-Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec28f5e1-2636-445b-bf9f-911f2d58bf9c",
+        "email": "Rick.Kuvalis66@yahoo.com",
+        "firstName": "Isaias",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3be4a7e6-8179-454a-8bd9-15e2c9677a20",
+        "email": "Jarod.Schroeder25@yahoo.com",
+        "firstName": "Camilla",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59178272",
+        "tenantId": null
+      },
+      {
+        "reference": "79fc4577-2453-4402-84fa-cb6ecaad4f0a",
+        "email": "Amaya86@gmail.com",
+        "firstName": "Piper",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/950.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "22af5782-3081-417b-8b80-08ddb31ef2fb",
+        "query": "apple",
+        "created_at": "2023-09-11T13:00:26.760Z",
+        "updated_at": "2023-09-11T18:37:53.585Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8c4df261-8100-45ce-8728-5a83b32904cf",
+        "query": "laptop",
+        "created_at": "2023-09-11T10:23:45.179Z",
+        "updated_at": "2023-09-11T12:54:56.874Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5d134ffb-623e-485b-8069-c844c067f88e",
+        "query": "shoes",
+        "created_at": "2023-09-11T12:18:14.303Z",
+        "updated_at": "2023-09-11T09:17:12.710Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0d86961d-056b-4a8b-b3e0-a872f0e46920",
+        "query": "car",
+        "created_at": "2023-09-11T15:23:38.047Z",
+        "updated_at": "2023-09-11T13:23:34.475Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bdbe6ead-4bec-4994-baa5-abbb9a67a02b",
+        "query": "book",
+        "created_at": "2023-09-12T00:40:36.733Z",
+        "updated_at": "2023-09-11T18:47:00.789Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "2826864c-50bf-489e-9653-64ecc1d9221b",
+        "name": "Part A",
+        "price": 55068,
+        "stock_level": 2837,
+        "created_at": "2023-09-11T06:40:02.829Z",
+        "updated_at": "2023-09-12T00:17:45.262Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "cbf63d84-6f04-4e72-b74b-a4541adc9ca3",
+        "name": "Part B",
+        "price": 15039,
+        "stock_level": 2770,
+        "created_at": "2023-09-11T14:33:25.458Z",
+        "updated_at": "2023-09-11T17:32:40.352Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "8ecabea9-f94e-4bc7-a096-0e36864e4593",
+        "name": "Part C",
+        "price": 68653,
+        "stock_level": 76559,
+        "created_at": "2023-09-11T11:36:12.595Z",
+        "updated_at": "2023-09-12T00:19:10.985Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "402115c6-00ab-40c7-bca3-152ae19e9d8c",
+        "name": "Part D",
+        "price": 63071,
+        "stock_level": 4469,
+        "created_at": "2023-09-12T03:11:30.724Z",
+        "updated_at": "2023-09-11T21:51:54.025Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "851e0b8c-6770-4943-84b1-2929520d7dbb",
+        "name": "Part E",
+        "price": 44862,
+        "stock_level": 24649,
+        "created_at": "2023-09-12T02:51:54.813Z",
+        "updated_at": "2023-09-11T23:12:31.781Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "46acdb57-4a58-4b94-92cd-e70fbeaf2992",
+        "total_price": 35644,
+        "status": "Pending",
+        "created_at": "2023-09-12T05:14:05.185Z",
+        "updated_at": "2023-09-11T06:42:49.462Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "b9bdbf2f-216a-465d-b957-125fb577473a",
+        "total_price": 39193,
+        "status": "Processing",
+        "created_at": "2023-09-12T05:39:39.241Z",
+        "updated_at": "2023-09-12T02:03:59.512Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "658f08bb-1364-4db2-8152-e9f56c4742ba",
+        "total_price": 72046,
+        "status": "Shipped",
+        "created_at": "2023-09-11T11:30:45.551Z",
+        "updated_at": "2023-09-12T04:04:27.260Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "116ffc4c-5bc7-4332-a15e-fbf802160681",
+        "total_price": 97542,
+        "status": "Delivered",
+        "created_at": "2023-09-11T21:12:19.459Z",
+        "updated_at": "2023-09-11T13:39:10.940Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "05920c77-60df-4a49-9216-fd19dc0fb0ca",
+        "total_price": 90566,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T18:35:00.761Z",
+        "updated_at": "2023-09-11T15:05:57.467Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "843a6d52-66bc-4c78-b32c-a4dd1f0f2835",
+        "quantity": 15058,
+        "price": 49108,
+        "created_at": "2023-09-11T15:26:45.163Z",
+        "updated_at": "2023-09-11T22:27:04.633Z",
+        "order_id": "b9bdbf2f-216a-465d-b957-125fb577473a",
+        "part_id": "8ecabea9-f94e-4bc7-a096-0e36864e4593"
+      },
+      {
+        "id": "e7166ade-9dd2-4665-bfca-62d74e8ca2fb",
+        "quantity": 6522,
+        "price": 4210,
+        "created_at": "2023-09-11T05:55:44.579Z",
+        "updated_at": "2023-09-11T18:19:52.894Z",
+        "order_id": "46acdb57-4a58-4b94-92cd-e70fbeaf2992",
+        "part_id": "851e0b8c-6770-4943-84b1-2929520d7dbb"
+      },
+      {
+        "id": "a5de1418-3450-46fd-800f-c5a91bc2b998",
+        "quantity": 84142,
+        "price": 74072,
+        "created_at": "2023-09-11T22:12:58.157Z",
+        "updated_at": "2023-09-11T14:47:20.398Z",
+        "order_id": "116ffc4c-5bc7-4332-a15e-fbf802160681",
+        "part_id": "cbf63d84-6f04-4e72-b74b-a4541adc9ca3"
+      },
+      {
+        "id": "d64ffe04-9d49-4272-b928-340f5ac4a9c5",
+        "quantity": 4406,
+        "price": 65734,
+        "created_at": "2023-09-11T05:57:10.647Z",
+        "updated_at": "2023-09-12T03:57:00.239Z",
+        "order_id": "658f08bb-1364-4db2-8152-e9f56c4742ba",
+        "part_id": "402115c6-00ab-40c7-bca3-152ae19e9d8c"
+      },
+      {
+        "id": "3ab2fff5-26d4-400d-a7a6-138f3e37eb61",
+        "quantity": 56935,
+        "price": 6171,
+        "created_at": "2023-09-11T21:13:45.573Z",
+        "updated_at": "2023-09-11T10:27:05.422Z",
+        "order_id": "05920c77-60df-4a49-9216-fd19dc0fb0ca",
+        "part_id": "402115c6-00ab-40c7-bca3-152ae19e9d8c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c727c5c-d6de-4652-95cd-5ae17bd5c120",
+        "email": "Garnet42@yahoo.com",
+        "firstName": "Forest",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31968602",
+        "tenantId": null
+      },
+      {
+        "reference": "22cac70f-f6e0-4054-8717-bb9125dfd7b7",
+        "email": "Savannah56@hotmail.com",
+        "firstName": "Teresa",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e72f110-9ae3-4dc3-b19f-7d69fbc2aed8",
+        "email": "Era84@gmail.com",
+        "firstName": "Emanuel",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/63.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50391f44-3f27-4e9a-b293-f674feb8b952",
+        "email": "Gilbert77@yahoo.com",
+        "firstName": "Arnold",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3d1f59f-2ff3-4fa0-b16b-9b3e3557fecb",
+        "email": "Baylee.Osinski89@hotmail.com",
+        "firstName": "Myrna",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56669069",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "59e4f04b-ad35-4691-a266-6e2be34f99ac",
+        "query": "electronics",
+        "created_at": "2023-09-12T02:04:14.106Z",
+        "updated_at": "2023-09-12T01:20:40.788Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "5a1c316c-dde4-4e9f-9692-590fdeb557f1",
+        "query": "furniture",
+        "created_at": "2023-09-11T17:41:01.319Z",
+        "updated_at": "2023-09-11T19:25:59.630Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f4d78700-be27-41e5-b3e6-2956fa64262d",
+        "query": "clothing",
+        "created_at": "2023-09-11T15:37:15.209Z",
+        "updated_at": "2023-09-12T01:46:22.714Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7f72f652-f279-4c3e-ac18-3683832cbe39",
+        "query": "appliances",
+        "created_at": "2023-09-11T10:49:47.703Z",
+        "updated_at": "2023-09-12T02:51:14.473Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f45cdc79-1934-474a-8860-3a3c8c22ca38",
+        "query": "books",
+        "created_at": "2023-09-12T00:54:03.006Z",
+        "updated_at": "2023-09-11T17:32:53.998Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "part": [
+      {
+        "id": "56746908-aad2-4798-be50-4d81b1661ae1",
+        "name": "Part A",
+        "price": 73623,
+        "stock_level": 84815,
+        "created_at": "2023-09-12T03:42:30.111Z",
+        "updated_at": "2023-09-11T20:34:17.741Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "cc644a0e-416e-4cef-925f-534665cba646",
+        "name": "Part B",
+        "price": 95160,
+        "stock_level": 15543,
+        "created_at": "2023-09-11T19:24:22.540Z",
+        "updated_at": "2023-09-12T04:50:49.180Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "0b4fff6c-88ef-433e-968d-532e07ef766d",
+        "name": "Part C",
+        "price": 93918,
+        "stock_level": 61365,
+        "created_at": "2023-09-12T05:03:15.722Z",
+        "updated_at": "2023-09-11T14:32:15.054Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "3945a09a-f8d5-4a83-94b1-4c7844e90812",
+        "name": "Part D",
+        "price": 65465,
+        "stock_level": 39475,
+        "created_at": "2023-09-11T12:45:40.968Z",
+        "updated_at": "2023-09-11T15:25:05.854Z",
+        "supplier_id": "main_entity_pk"
+      },
+      {
+        "id": "26d610ed-96ef-4aa2-a68c-48c4bfc59a1c",
+        "name": "Part E",
+        "price": 10539,
+        "stock_level": 34649,
+        "created_at": "2023-09-12T00:46:50.053Z",
+        "updated_at": "2023-09-11T14:07:02.651Z",
+        "supplier_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "87e2a660-8e0d-4f18-baa5-b89fc8f641c4",
+        "total_price": 45675,
+        "status": "Pending",
+        "created_at": "2023-09-11T20:08:29.817Z",
+        "updated_at": "2023-09-11T08:28:40.664Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "16bdc424-3e74-4e86-89e1-da7184471fe6",
+        "total_price": 3536,
+        "status": "Processing",
+        "created_at": "2023-09-11T07:03:49.493Z",
+        "updated_at": "2023-09-12T01:34:05.360Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "9cc94c98-4ed6-452a-97ab-ff5946c17a11",
+        "total_price": 56693,
+        "status": "Shipped",
+        "created_at": "2023-09-12T04:40:34.289Z",
+        "updated_at": "2023-09-11T07:30:55.077Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8fbb51d9-fd62-4f26-8701-caf1a8635108",
+        "total_price": 43849,
+        "status": "Delivered",
+        "created_at": "2023-09-11T15:21:10.536Z",
+        "updated_at": "2023-09-11T10:21:55.123Z",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4de1fb7e-b8d5-4fcb-8e38-407699c1dd19",
+        "total_price": 63680,
+        "status": "Cancelled",
+        "created_at": "2023-09-11T21:10:03.520Z",
+        "updated_at": "2023-09-11T13:32:41.028Z",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "ea7383ae-b093-4f4e-ace9-543dd71034e9",
+        "quantity": 39527,
+        "price": 68862,
+        "created_at": "2023-09-11T15:41:07.717Z",
+        "updated_at": "2023-09-11T19:38:19.598Z",
+        "order_id": "87e2a660-8e0d-4f18-baa5-b89fc8f641c4",
+        "part_id": "0b4fff6c-88ef-433e-968d-532e07ef766d"
+      },
+      {
+        "id": "cd3a8bd3-b1bf-4f3d-906d-fe6787aa4f35",
+        "quantity": 53884,
+        "price": 16974,
+        "created_at": "2023-09-12T01:32:51.857Z",
+        "updated_at": "2023-09-11T19:26:07.213Z",
+        "order_id": "87e2a660-8e0d-4f18-baa5-b89fc8f641c4",
+        "part_id": "0b4fff6c-88ef-433e-968d-532e07ef766d"
+      },
+      {
+        "id": "dad038ef-d791-418c-8c7a-0fadb1210ee3",
+        "quantity": 31097,
+        "price": 5426,
+        "created_at": "2023-09-11T18:44:29.590Z",
+        "updated_at": "2023-09-11T09:05:01.755Z",
+        "order_id": "16bdc424-3e74-4e86-89e1-da7184471fe6",
+        "part_id": "3945a09a-f8d5-4a83-94b1-4c7844e90812"
+      },
+      {
+        "id": "ddc16540-bda6-4e91-9bf4-0eb956948fb9",
+        "quantity": 84349,
+        "price": 14187,
+        "created_at": "2023-09-11T10:20:15.413Z",
+        "updated_at": "2023-09-11T14:21:52.174Z",
+        "order_id": "8fbb51d9-fd62-4f26-8701-caf1a8635108",
+        "part_id": "26d610ed-96ef-4aa2-a68c-48c4bfc59a1c"
+      },
+      {
+        "id": "c1b5f049-60b0-4058-a201-66b0d32cf894",
+        "quantity": 38612,
+        "price": 86516,
+        "created_at": "2023-09-11T12:47:25.169Z",
+        "updated_at": "2023-09-11T07:06:50.033Z",
+        "order_id": "16bdc424-3e74-4e86-89e1-da7184471fe6",
+        "part_id": "0b4fff6c-88ef-433e-968d-532e07ef766d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "880a8c66-7ad8-4f4d-895f-6b39f6d8797b",
+        "email": "Amalia44@yahoo.com",
+        "firstName": "Ila",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/484.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9895c952-9363-4a9b-8fa2-8b06cc19ec37",
+        "email": "Ray.Effertz73@gmail.com",
+        "firstName": "Emmet",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74496641",
+        "tenantId": null
+      },
+      {
+        "reference": "d2101d36-7656-4f23-bad9-25e82e482a0b",
+        "email": "Estrella_Jacobson@gmail.com",
+        "firstName": "Oliver",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/928.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "031c891e-3432-4229-9a37-816321d2917d",
+        "email": "Sadie2@gmail.com",
+        "firstName": "Pearlie",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/71.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5607eabe-29f8-4771-b058-05373e3c1388",
+        "email": "Nolan.Konopelski15@hotmail.com",
+        "firstName": "Vita",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50932848",
+        "tenantId": null
+      }
+    ]
+  }
+]
